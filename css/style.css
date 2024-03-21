@@ -8,21 +8,23 @@ body{
     background-size: cover;
     margin: 0;
     font-weight: 900;
+    
 }
 /*Organização da navbar*/
+
 nav{          
     background-color: #05072F;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 900;
     row-gap: 46.5px;height: 154px;
 }
 .logo{
     
-    font-size: 40px;    
-    margin-left: 62px;
+    font-size: 30px;    
+    margin-right: 100px;
     margin-top: 62px;
     
     
@@ -38,11 +40,12 @@ nav{
     justify-content: space-between;
     row-gap: 50px;
     flex-direction: row;
-    margin: 0px 200px 0px 200px ;
+     
     
     
 }
 .account{
+    margin-left: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,55 +62,60 @@ nav{
 }
 /*Organização do corpo principal do site*/
 main{
-    
+       
     display: flex;
-    height: 824px;
     background-color: #01041B;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
 }
 .mainText{
-    margin: 0px 80px 0px 80px;
+    /* border: solid; */
+    
+    width: 50%;
 }
 .titulo{
-    width: 930px;
-    height: 302px;
-    font-size: 124px; 
+    margin-left: 25px;
+    font-size: 90px; 
+    padding-right: 83px;
 }
 .text{
+    font-size: 20px;
+    /* border:solid white; */
     display: flex;
-    width: 915px;
-    line-height: 36.5px;
-
+    margin: 0 10px 30px 25px;
+    padding-right: 20px;
+    
 }
 .buttons{
+    /* border: solid yellow; */
     display: flex;
-    column-gap: 52px;
+    column-gap: 30px;
+    margin-left: 40px;
     
 }
 .button1{
     font-family: "Montserrat",sans-serif;
     color: white;
     font-weight: 300;
-    height: 100px;
-    width: 330px;
+    height: 75px;
+    width: 270px;
     border-radius: 45px;
     background-color: #CF092D;
-    font-size: 30px;
+    font-size: 25px;
 }
 .button2{
     font-family: "Montserrat",sans-serif;
     color: white;
     font-weight: 300;
-    height: 100px;
-    width: 330px;
+    height: 75px;
+    width: 270px;
     border-radius: 45px;
     background-color: #410093;
-    font-size: 30px;
+    font-size: 25px;
 }
 .AlbumCover{
-    height: 824px;
-    width: 895px;
+    
+    width: 50%
 }
 /*Organização do footer*/
 footer{
