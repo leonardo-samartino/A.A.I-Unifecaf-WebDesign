@@ -33,16 +33,22 @@ nav{
 .TitleColor{
     color: #CF092D;
 }
-.navigation{
-    word-spacing: 45px;
+.navigation {
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    row-gap: 50px;
+    
     flex-direction: row;
+    
      
     
     
+}
+.navigation a{    
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
 }
 .account{
     margin-left: 100px;
@@ -52,6 +58,10 @@ nav{
     flex-direction: row;
     
 }
+.helpLogin a{
+    text-decoration: none;
+    color: white;
+}
 .bar{
     color: #CF092D;
     font-weight: 600;
@@ -60,6 +70,11 @@ nav{
     margin-left: 45px;
     color: #CF092D;
 }
+.CreateAccount a{
+    text-decoration: none;
+    color: #CF092D;
+}
+
 /*Organização do corpo principal do site*/
 main{
        
@@ -126,5 +141,8 @@ footer{
     align-items: center;
     justify-content: center;
 }
-    
+footer a{
+    text-decoration: none;
+    color: white;
+}
     
